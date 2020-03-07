@@ -29,8 +29,8 @@ public class Sovellus {
         IntJoukko joukko = mikaJoukko();
         System.out.println("");
         System.out.print("Mikä luku lisätään? ");
-        int lisLuku = lukija.nextInt();
-        joukko.lisaa(lisLuku);
+        int lisattavaLuku = lukija.nextInt();
+        joukko.lisaa(lisattavaLuku);
     }
 
     private static void yhdiste() {
